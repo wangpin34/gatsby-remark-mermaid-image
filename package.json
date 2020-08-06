@@ -1,11 +1,11 @@
 {
   "name": "gatsby-remark-mermaid-image",
   "version": "0.0.1",
-  "description": "generate image instead of svg segment\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dmer\u001b[F\u001b[B\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[maid chart in image",
+  "description": "generate image instead of svg segment of mermaid chart",
   "main": "index.js",
   "dependencies": {
     "js-base64": "^3.4.4",
-    "puppeteer": "^5.2.1",
+    "mermaid": "^8.6.4",
     "unist-util-visit": "^2.0.3"
   },
   "devDependencies": {},
@@ -21,10 +21,13 @@
     "mermaid",
     "image"
   ],
-  "author": "pengson <guyusay@gmail.com>",
+  "author": "Pengson Wang <guyusay@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/wangpin34/gatsby-remark-mermaid-image/issues"
   },
-  "homepage": "https://github.com/wangpin34/gatsby-remark-mermaid-image#readme"
+  "homepage": "https://github.com/wangpin34/gatsby-remark-mermaid-image#readme",
+  "peerDependencies": {
+    "puppeteer": "^5.2.1"
+  }
 }
