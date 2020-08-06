@@ -6,6 +6,7 @@
   "dependencies": {
     "js-base64": "^3.4.4",
     "mermaid": "^8.6.4",
+    "puppeteer": "^5.2.1",
     "unist-util-visit": "^2.0.3"
   },
   "devDependencies": {},
@@ -27,7 +28,5 @@
     "url": "https://github.com/wangpin34/gatsby-remark-mermaid-image/issues"
   },
   "homepage": "https://github.com/wangpin34/gatsby-remark-mermaid-image#readme",
-  "peerDependencies": {
-    "puppeteer": "^5.2.1"
-  }
+  "peerDependencies": {}
 }
